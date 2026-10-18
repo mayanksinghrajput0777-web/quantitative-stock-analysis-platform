@@ -1,0 +1,16 @@
+2026-10-18 13:41:20,626 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+2026-10-18 13:41:20,856 ERROR yfinance: $TATAMOTORS.NS: possibly delisted; no timezone found
+2026-10-18 13:41:20,863 ERROR yfinance: 
+1 Failed download:
+2026-10-18 13:41:20,863 ERROR yfinance: ['TATAMOTORS.NS']: possibly delisted; no timezone found
+2026-10-18 13:41:23,321 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+2026-10-18 13:41:23,543 ERROR yfinance: $TATAMOTORS.NS: possibly delisted; no timezone found
+2026-10-18 13:41:23,549 ERROR yfinance: 
+1 Failed download:
+2026-10-18 13:41:23,549 ERROR yfinance: ['TATAMOTORS.NS']: possibly delisted; no timezone found
+2026-10-18 13:41:27,569 ERROR yfinance: $TATAMOTORS.NS: possibly delisted; no timezone found
+2026-10-18 13:41:27,580 ERROR yfinance: 
+1 Failed download:
+2026-10-18 13:41:27,580 ERROR yfinance: ['TATAMOTORS.NS']: possibly delisted; no timezone found
+2026-10-18 13:41:33,596 ERROR yfinance: $TATAMOTORS.NS: possibly delisted; no timezone found
+2026-10-18 13:46:10,221 ERROR yfinance: HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}

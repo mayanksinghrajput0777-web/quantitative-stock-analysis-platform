@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "1) Bootstrap (everything)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_pipeline.py", "args": ["bootstrap"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "Bootstrap (quick test, --fast)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_pipeline.py", "args": ["bootstrap", "--fast", "--skip-news"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "Daily update", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_pipeline.py", "args": ["daily"], "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"name": "FastAPI", "type": "debugpy", "request": "launch", "module": "uvicorn", "args": ["api.main:app", "--port", "8000", "--reload"], "cwd": "${workspaceFolder}"},
+    {"name": "Streamlit", "type": "debugpy", "request": "launch", "module": "streamlit", "args": ["run", "app/streamlit_app.py"], "cwd": "${workspaceFolder}"}
+  ]
+}
